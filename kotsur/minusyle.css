@@ -1,0 +1,13 @@
+body{
+    front-famili: Georgia;/"Times New Roman"/
+    color:blue; /*teksti värv*/
+}
+h1{
+    border: solid 1px blue; /*ääris*/
+    padding: 10%; /*vahe tekstist ääriseni*/
+    margin: 10px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 70px;
+    width: 50% /*laius*/
+;    backgraund-color: cyan; /*tausta varv*/
+}
+
