@@ -1,0 +1,53 @@
+header h1{
+    border: solid 7px #122c6e; /*ääris*/
+    padding: 3%; /*vahe tekstist ääriseni*/
+    margin: 10px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 70px;
+    width: 40% /*laius*/
+;    background-color: #9a7ecc; /*tausta varv*/
+    letter-spacing: 0.05cm;
+    font-variant: small-caps;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c3b5d8;
+}
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: #122c6e;
+    padding: 10px;
+}
+li a:hover{  /*lingid fookuses*/
+    background-color: #af97da
+}
+footer{
+    text-align: center;
+    /*margin-top: 20%;*/
+    background-color: #c3b5d8;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+section{
+    text-align: center;
+    padding: 2%;
+    color: #31065e;
+    background-color: #9a7ecc;
+    letter-spacing: 0.03cm;
+    border-radius: 70px;
+
+
+}
+section h2{
+
+}
