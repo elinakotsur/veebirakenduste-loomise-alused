@@ -1,0 +1,23 @@
+tabel#lihtne, td{
+    width: 60%;
+    border: 1px solid #040f2f;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+tabel#keeruline1 td{
+    width: 50%;
+    border: 1px solid #040f2f;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: #8f8fd1;
+}
+tabel#keeruline2 td{
+    width: 50%;
+    border: 1px solid #040f2f;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: #ad8dd1;
+}
