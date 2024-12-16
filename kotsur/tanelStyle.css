@@ -1,23 +1,40 @@
-tabel#lihtne, td{
-    width: 60%;
-    border: 1px solid #040f2f;
-    text-align: center;
-    padding: 10px;
+table#lihtne td{
+    width: 100px;
+    height: 40px;
+    border: 4px #264559 solid;
+    text-align: center; /*teksti joondamine keskele*/
+    padding: 10px; /*vahe tekstist ääriseni*/
+    background-color: #97bed3;
     border-collapse: collapse;
+    font-size: 30px;
 }
-tabel#keeruline1 td{
-    width: 50%;
-    border: 1px solid #040f2f;
+table#keeruline1 td{
+    /*html failis id=keeruline1*/
+    width: 150px;
+    height: 70px;
+    border: 4px #2c416c solid;
     text-align: center;
     padding: 10px;
     border-collapse: collapse;
-    background-color: #8f8fd1;
+    background-color: #8fa4d1;
+    font-size: 30px;
 }
-tabel#keeruline2 td{
-    width: 50%;
-    border: 1px solid #040f2f;
+table#keeruline2 td{
+    width: 200px;
+    height: 60px;
+    border: 4px #2d2963 solid;
     text-align: center;
     padding: 10px;
     border-collapse: collapse;
-    background-color: #ad8dd1;
+    background-color: #928dd1;
+    font-size: 30px;
+}
+table#keeruline3 td{
+    width: 150px;
+    height: 60px;
+    border: 4px #3e235e solid;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    background-color: #ab8ad3;
 }
