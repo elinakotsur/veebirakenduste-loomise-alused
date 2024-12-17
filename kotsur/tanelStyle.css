@@ -1,4 +1,4 @@
-table#lihtne td{
+table#lihtne{
     width: 100px;
     height: 40px;
     border: 4px #264559 solid;
@@ -7,6 +7,25 @@ table#lihtne td{
     background-color: #97bed3;
     border-collapse: collapse;
     font-size: 30px;
+}
+/*tabeli pseudoelimentide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: #665cbf;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){/*1.rida 2.lahter*/
+    background-color: #9a7ecc;
+}
+#lihtne tr:nth-child(1) td:nth-child(3){/*1.rida 3.lahter*/
+    background-color: #665cbf;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){/*2.rida 1.lahter*/
+    background-color: #9a7ecc;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){/*2.rida 2.lahter*/
+    background-color: #665cbf;
+}
+#lihtne tr:nth-child(2) td:nth-child(3){/*2.rida 3.lahter*/
+    background-color: #9a7ecc;
 }
 table#keeruline1 td{
     /*html failis id=keeruline1*/
@@ -38,3 +57,82 @@ table#keeruline3 td{
     font-size: 50px;
     background-color: #ab8ad3;
 }
+table#iseseisev{
+    width: 250px;
+    height: 50px;
+    border: 4px #3e235e solid;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    background-color: #c3b5d8;
+}
+#iseseisev tr:nth-child(1) td:nth-child(1){
+    background-color: #665cbf;
+}
+#iseseisev tr:nth-child(1) td:nth-child(2){
+    background-color: #9a7ecc;
+}
+#iseseisev tr:nth-child(1) td:nth-child(3){
+    background-color: #7c4191;
+}
+#iseseisev tr:nth-child(2) td:nth-child(1){
+    background-color: #8c3cdd;
+}
+#iseseisev tr:nth-child(2) td:nth-child(2){
+    background-color: #325bbf;
+}
+#iseseisev tr:nth-child(3) td:nth-child(1){
+    background-color: #665cbf;
+}
+#iseseisev tr:nth-child(3) td:nth-child(2){
+    background-color: #7f4abf;
+}
+#iseseisev tr:nth-child(3) td:nth-child(3){
+    background-color: #9a7ecc;
+}
+#iseseisev tr:nth-child(4) td:nth-child(1){
+    background-color: #325bbf;
+}
+#iseseisev tr:nth-child(4) td:nth-child(2){
+    background-color: #7c4191;
+}
+table#iseseisev2 {
+    width: 250px;
+    height: 200px;
+    border: 4px #3e235e solid;
+    padding: 10px;
+    background-color: #c3b5d8;
+    border-collapse: collapse;
+}
+#iseseisev2 tr:nth-child(1) td:nth-child(1){
+    background-color: #7c4191;
+}
+#iseseisev2 tr:nth-child(2) td:nth-child(1){
+    background-color: #9982c5;
+}
+#iseseisev2 tr:nth-child(2) td:nth-child(2){
+    background-color: #6f3daa;
+}
+#iseseisev2 tr:nth-child(2) td:nth-child(3){
+    background-color: #9a80c8;
+}
+#iseseisev2 tr:nth-child(3) td:nth-child(1){
+    background-color: #8c3cdd;
+}
+#iseseisev2 tr:nth-child(3) td:nth-child(2){
+    background-color: #325bbf;
+}
+#iseseisev2 tr:nth-child(3) td:nth-child(3){
+    background-color: #8c3cdd;
+}
+#iseseisev2 tr:nth-child(4) td:nth-child(1){
+    background-color: #233a7c;
+}
+#iseseisev2 tr:nth-child(5) td:nth-child(1){
+    background-color: #754ea3;
+}
+#iseseisev2 tr:nth-child(6) td:nth-child(1){
+    background-color: #7c4191;
+}
+
+
