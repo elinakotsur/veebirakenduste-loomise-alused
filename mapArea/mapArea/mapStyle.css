@@ -23,6 +23,7 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
+    color: #420707;
 }
 header{
     text-align: center;
@@ -37,7 +38,7 @@ header{
 img{
     border: solid #930c27 6px;
     border-radius: 10%;
-    filter: brightness(110%);
+    filter: brightness(110%) blur(1px) contrast(110%);
 
 
 }
