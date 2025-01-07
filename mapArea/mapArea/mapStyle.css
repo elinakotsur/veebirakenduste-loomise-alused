@@ -1,0 +1,43 @@
+div{
+    width:20%;
+    border: solid #930c27 6px;
+    height: 10%;
+    position: absolute;
+    left: 11cm;
+    top: 2cm;
+    padding: 6%;
+    border-radius: 60px;
+    background-color: #ffccc3;
+    color: #75091f;
+    margin: 2%;
+    font-family: Verdana, serif;
+    font-variant: all-petite-caps
+;   font-size: 150%;
+    font-weight: bold;
+
+}
+footer{
+    text-align: center;
+    background-color: #eaada2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+header{
+    text-align: center;
+    width: 100%;
+    font-family: Verdana, serif;
+    font-size: 150%;
+    letter-spacing: 0.05cm;
+    background-color: #9dd6e4;
+    color: #77091f;
+    border-radius: 60px;
+}
+img{
+    border: solid #930c27 6px;
+    border-radius: 10%;
+    filter: brightness(110%);
+
+
+}
