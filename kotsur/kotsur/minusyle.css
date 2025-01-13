@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia;/"Times New Roman"/
+    color: blue; /*teksti värv*/
+}
+h1{
+    border: solid 1px #1c04b6; /*ääris*/
+    padding: 10%; /*vahe tekstist ääriseni*/
+    margin: 10px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 70px;
+    width: 50% /*laius*/
+;    background-color: #2857d3; /*tausta varv*/
+}
+h2{
+    border: dotted 1px revert; /*dashed, outline, double, solid*/
+    padding: 10%; /*vahe tekstist ääriseni*/
+    margin: 10px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 70px;
+    width: 50% /*laius*/
+    ;    background-color: #0048ff;
+}
+ul{
+    list-style-type: circle; /*markeri tüüp - square, */
+    padding: 5px;
+    background-color: aqua;
+}
+ul li{
+    background-color: aquamarine;
+    margin:5px;
+}
+table, td{
+    width: 60%;
+    border: solid 1px #1c04b6;
+    border-collapse: collapse; /*ühine ääris*/
+    text-align: center; /*teksti joondamine keskel*/
+    background-color: aqua;
+}
