@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Muusika ankeet</title>
+    <link rel="stylesheet" href="ankeetStyle.css">
+</head>
+<body>
+<h1>Muusika ankeet</h1>
+<form action="#">
+    <table border="1">
+        <tr>
+            <td>
+                <label for="nimi">Eesnimi</label>
+            </td>
+            <td>
+                <input type="text" id="nimi" placeholder="kirjuta nimi">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Vali rühm</strong>
+            </td>
+
+            <td>
+
+                <input type="radio" id="titpv24" name="ryhm" checked>
+                <label for="titpv24">TITpv24</label>
+                <br>
+                <input type="radio" id="logitpv24" name="ryhm">
+                <label for="logitpv24">LOGITpv24</label>
+                <br>
+                <input type="radio" id="tarpv24" name="ryhm">
+                <label for="tarpv24">TARpv24</label>
+                <br>
+                <input type="radio" id="krrpv24" name="ryhm">
+                <label for="krrpv24">KRRpv24</label>
+                <br>
+                <input type="radio" id="vlogpv24" name="ryhm">
+                <label for="vlogpv24">VLOGpv24</label>
+                <br>
+                <input type="radio" id="autpv24" name="ryhm">
+                <label for="autpv24">AUTpv24</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Millist muusikat sa kuulad?</strong>
+            </td>
+            <td>
+                <input type="checkbox" id="rock">
+                <label for="rock">Rock</label>
+                <br>
+                <input type="checkbox" id="jazz">
+                <label for="jazz">Jazz</label>
+                <br>
+                <input type="checkbox" id="kpop">
+                <label for="kpop">K-pop</label>
+                <br>
+                <input type="checkbox" id="metall">
+                <label for="metall">Metall</label>
+                <br>
+                <input type="checkbox" id="rap">
+                <label for="rap">Rap</label>
+                <br>
+                <input type="checkbox" id="hiphop">
+                <label for="hiphop">Hip-hop</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="varv"><strong>Mis värvi on rock muusika?</strong></label>
+            </td>
+            <td>
+                <input type="color" id="varv">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tund">
+                    <strong>Mitu tundi päevas sa kuulad muusikat?</strong>
+                </label>
+            </td>
+            <td>
+
+            <select name="tund" id="tund">
+            <option value="15 min">15 min</option>
+            <option value="1 tund">1 tund</option>
+            <option value="2 tundi">2 tundi</option>
+            <option value="pool päeva">pool päeva</option>
+        </select>
+                <br>
+                <label>
+                0 tundi<input type="range" min="0" max="24">24 tundi
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Kas sa kuulad raadiot?</strong>
+            </td>
+            <td>
+                <input type="radio" id="jah" name="radio">
+                <label for="jah">jah</label>
+                <br>
+                <input type="radio" id="ei" name="radio">
+                <label for="ei">ei</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <strong>Milliseid raadiojaame sa oskad nimetada?</strong>
+                </label>
+            </td>
+            <td>
+                <input type="checkbox" id="star">
+                <label for="star">Star FM</label>
+                <br>
+                <input type="checkbox" id="retro">
+                <label for="retro">Retro FM</label>
+                <br>
+                <input type="checkbox" id="viker">
+                <label for="viker">Vikerradio</label>
+                <br>
+                <input type="checkbox" id="elmar">
+                <label for="elmar">Raadio Elmar</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <strong>Millal sa käisid viimati muusika konserdil?</strong>
+                </label>
+            </td>
+            <td>
+                <label for="paev"></label>
+                <input type="date" id="paev">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Salvesta">
+            </td>
+            <td>
+                <input type="reset" value="Puhasta">
+            </td>
+        </tr>
+
+    </table>
+    <!--tekst kast-->
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
