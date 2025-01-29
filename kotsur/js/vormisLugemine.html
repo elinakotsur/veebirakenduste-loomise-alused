@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormist lugemine</title>
+    <script src="vormScript.js"></script>
+    <link rel="stylesheet" href="vormLug.css">
+</head>
+<body>
+<h1>Vormist lugemine JS abil</h1>
+<form action="">
+    <label for="nimi">Sisesta nimi</label>
+    <input type="text" name="nimi" id="nimi">
+    <br>
+    <label for="perekonna">Sisesta perekonnanimi</label>
+    <input type="text" name="perekonna" id="perekonna">
+    <br>
+    <label for="varv">Vali vastuse värv</label>
+    <input type="color" id="varv">
+    <br><br>
+    <!--raadio nupp-->
+    <strong>Vali sugu: </strong>
+    <br>
+    <input type="radio" name="sugu" id="mees">
+    <label for="mees">mees</label>
+    <br>
+    <input type="radio" name="sugu" id="naine">
+    <label for="naine">naine</label>
+    <img src="" alt="" id="pilt">
+    <br><br>
+    <label for="synni">Vali oma sünnipäev</label>
+    <input type="date" name="synni" id="synni">
+    <br><br>
+
+    <label for="vanus">Sinu vanus:</label>
+    <input type="number" name="vanus" id="vanus">
+    <br><br>
+    <label for="posti">Sinu e-posti aadress:</label>
+    <input type="email" name="posti" id="posti">
+    <br><br>
+    <label for="telef">Sinu telefoni number:</label>
+    <input type="tel" name="telef" id="telef">
+    <br><br>
+    <label for="isik">Sinu isikukood:</label>
+    <input type="url" name="isik" id="isik">
+    <!--ripp loeng-->
+    <br><br>
+    <label for="linn"><strong>Kus sa elad?</strong></label>
+    <br>
+    <select name="linn" id="linn" onchange="selectvalik()">
+        <option value="Tallinn" >Tallinn</option>
+        <option value="Tartu">Tartu</option>
+        <option value="Narva">Natva</option>
+        <option value="Võru">Võru</option>
+        <option value="Pärnu">Pärnu</option>
+        <option value="Paide">Paide</option>
+    </select>
+    <div id="vastus2"></div>
+    <!--chek-->
+    <br>
+    <strong>Vali oma lemmik sport</strong>
+    <br>
+    <input type="checkbox" id="vorkpall" value="võrkpall" onclick="chekckboxValik()">
+    <label for="vorkpall">Võrkpall</label>
+    <br>
+    <input type="checkbox" id="jalgpall" value="jalgpall">
+    <label for="jalgpall">Jalgpall</label>
+    <br>
+    <input type="checkbox" id="korvpall" value="korvpall">
+    <label for="korvpall">Korvpall</label>
+    <br>
+
+    <input type="checkbox" id="ujumine" value="ujumine">
+    <label for="ujumine">Ujumine</label>
+    <br>
+    <input type="checkbox" id="tantsid" value="tantsid">
+    <label for="tantsid">Tantsid</label>
+
+    <div id="vastus3"></div>
+
+
+
+
+
+
+       <div id="vastus"></div>
+    <input type="button" value="OK" onclick="lugemine2()">
+
+</form>
+
+</body>
+</html>
